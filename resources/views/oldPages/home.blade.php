@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="./assets/img/favicon.png" type="image/png">
-	<title>Satner Portfolio</title>
+	<title>My Portfolio</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="./assets/css/bootstrap.css">
 	<link rel="stylesheet" href="./assets/vendors/linericon/style.css">
@@ -26,7 +26,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="./assets/index.html"><img src="./assets/img/logo.png" alt=""></a>
+					<a class="navbar-brand logo_h" href="/"><img src="./assets/img/logo.png" alt="Home"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>

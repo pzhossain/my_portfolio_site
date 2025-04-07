@@ -1,16 +1,21 @@
 <?php
 
-use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteController;
+use App\Http\Controllers\homePageController;
+use App\Http\Controllers\aboutPageController;
+use App\Http\Controllers\contactPageController;
+use App\Http\Controllers\servicesPageController;
+use App\Http\Controllers\portfolioPageController;
 
 //Page Routes
 
-Route::get('/', [SiteController::class, 'homePage'])->name ('home');
+Route::get('/', [homePageController::class, 'homePage'])->name ('home');
 
-Route::get('/about', [SiteController::class, 'aboutPage'])->name ('about');
+Route::get('/about', [aboutPageController::class, 'aboutPage'])->name ('about');
 
-Route::get('/contact', [SiteController::class, 'contactPage'])->name ('contact');
+Route::get('/contact', [contactPageController::class, 'contactPage'])->name ('contact');
 
-Route::get('/portfolio', [SiteController::class, 'portfolioPage'])->name ('portfolio');
+Route::get('/portfolio', [portfolioPageController::class, 'portfolioPage'])->name ('portfolio');
 
-Route::get('/services', [SiteController::class, 'servicesPage'])->name ('services');
+Route::get('/services', [servicesPageController::class, 'servicesPage'])->name ('services');
